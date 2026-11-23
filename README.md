@@ -6,7 +6,7 @@ E-commerce platforms typically assume a linear purchase funnel
 (view -> cart -> purchase) and design abandonment-recovery strategies 
 around it. This analysis examines whether that assumption holds for 
 this dataset, and segments user behavior across the funnel stages to 
-identify the actual purchase paths users take — with the goal of 
+identify the actual purchase paths users take - with the goal of 
 informing where funnel optimization efforts (cart experience vs. 
 direct-buy flow) would have the most impact.
 
@@ -21,17 +21,17 @@ direct-buy flow) would have the most impact.
 ## Key Findings
 
 1. **The funnel is not sequential.** Purchases do not reliably follow 
-   the cart step — a large share of buyers convert without ever adding 
+   the cart step - a large share of buyers convert without ever adding 
    an item to cart.
 
 2. **Direct purchases dominate.** Among 12,774 unique purchasers, 62.54% 
-   bought without ever adding an item to cart (Direct Buy: 7,963 users) — 
+   bought without ever adding an item to cart (Direct Buy: 7,963 users) - 
    nearly double the users who completed the full view -> cart -> purchase 
    path (4,782 users).
 
 3. **"Add to cart" is a weak signal in this dataset.** Traditional cart 
    abandonment strategies would misrepresent actual buyer behavior here, 
-   since most conversions bypass the cart entirely — likely through 
+   since most conversions bypass the cart entirely - likely through 
    direct/"buy now" purchase flows.
 
 4. **Total revenue generated in the month:** $5,566,814 (from 12,774 
